@@ -1,0 +1,12 @@
+git add -A
+git commit -m "Commit Message"
+heroku create # already done here
+git push heroku master
+heroku run rake db:migrate
+heroku rename mentorbuddy
+heroku open
+
+Renaming fast-sea-14893 to mentorbuddy... done
+https://mentorbuddy.herokuapp.com/ | https://git.heroku.com/mentorbuddy.git
+Git remote heroku updated
+ !    Don't forget to update git remotes for all other local checkouts of the app.
